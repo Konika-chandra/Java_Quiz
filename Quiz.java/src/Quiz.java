@@ -219,7 +219,7 @@ public class Quiz extends JFrame implements ActionListener {
             }
             setVisible(false);
             new Score(name, score);
-            count =0; // i add this one here
+            count =0; // that made repetitions
         }
     }
     
